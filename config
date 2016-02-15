@@ -164,6 +164,8 @@ bindsym $mod+End exec slock
 #Volume keys
 bindsym XF86AudioLowerVolume exec amixer sset Master 5%-
 bindsym XF86AudioRaiseVolume exec amixer sset Master 5%+
+bindsym Shift+XF86AudioLowerVolume exec amixer sset Master 1%-
+bindsym Shift+XF86AudioRaiseVolume exec amixer sset Master 1%+
 bindsym XF86AudioMute exec amixer sset Master toggle
 bindsym XF86AudioMicMute exec amixer sset Capture toggle
 bindsym XF86AudioPref exec /opt/scripts/musickeys.sh prev
